@@ -1,7 +1,8 @@
 # greek-computer
+
 Solver for the Greek Computer puzzle
 
-![alt text](https://prodimage.images-bn.com/pimages/0850013539093_p0_v2_s1200x630.jpg)
+![alt text](greek_computer.jpg)
 
 The goal of this puzzle is to manipulate each moving wheel to where the visible numbers in each radial all add up to 42.
 
