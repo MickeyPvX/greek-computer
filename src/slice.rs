@@ -1,4 +1,4 @@
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy)]
 pub struct PuzzleSlice {
     pub inner: u8,
     pub inner_middle: u8,
@@ -8,7 +8,6 @@ pub struct PuzzleSlice {
 
 impl PuzzleSlice {
     pub fn sum(self) -> u8 {
-        let slice: [u8; 4] = [self.inner, self.inner_middle, self.outer_middle, self.outer];
-        slice.iter().sum()
+        self.inner + self.inner_middle + self.outer_middle + self.outer
     }
 }

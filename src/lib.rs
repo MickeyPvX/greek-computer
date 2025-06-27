@@ -1,6 +1,15 @@
 pub mod computer;
 pub mod slice;
 
+#[derive(Debug, Clone, Copy)]
+pub enum WheelType {
+    Inner,
+    InnerMiddle,
+    OuterMiddle,
+    Outer,
+    Base,
+}
+
 pub mod wheels {
     pub const BASE: [[u8; 12]; 4] = [
         [11, 11, 14, 11, 14, 11, 14, 14, 11, 14, 11, 14], // INNER
