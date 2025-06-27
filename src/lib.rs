@@ -47,9 +47,4 @@ pub mod wheels {
         wheels_array
     }
 
-    pub fn print_wheels(inner_first: bool) {
-        for wheel in get_wheels(inner_first).into_iter() {
-            println!("{:?}", &wheel);
-        }
-    }
 }
