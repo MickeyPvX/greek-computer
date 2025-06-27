@@ -1,4 +1,3 @@
-use std::iter::Iterator;
 use std::time::Instant;
 
 use greek_computer::computer::Computer;
